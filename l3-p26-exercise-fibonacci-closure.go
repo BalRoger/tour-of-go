@@ -13,6 +13,11 @@ import "fmt"
 // fibonacci is a function that returns
 // a function that returns an int.
 func fibonacci() func() int {
+	fm, fn := -1, 1
+	return func() int {
+		fm, fn = fn, fm + fn
+		return fn
+	}
 }
 
 func main() {
