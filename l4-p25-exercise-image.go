@@ -1,5 +1,4 @@
 /*
-
 Exercise: Images
 Remember the picture generator you wrote earlier? Let's write another one, but this time it will return an implementation
 of image.Image instead of a slice of data.
