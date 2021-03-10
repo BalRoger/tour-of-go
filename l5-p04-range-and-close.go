@@ -1,7 +1,8 @@
 /*
 
 Range and Close
-A sender can close a channel to indicate that no more values will be sent. Receivers can test whether a channel has been closed by assigning a second parameter to the receive expression: after
+A sender can close a channel to indicate that no more values will be sent. Receivers can test whether a channel has been
+closed by assigning a second parameter to the receive expression: after
 	v, ok := <-ch
 ok is false if there are no more values to receive and the channel is closed.
 
